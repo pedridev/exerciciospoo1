@@ -20,10 +20,13 @@ public class DefinindoAtributosCasa {
     }
 
     public void pintar() {
-        System.out.println();
         System.out.println("A casa foi pintada de : " + cor);
     }
 
+    public void mudarCorParede(String novaCor){
+        cor = novaCor;  
+        pintar();
+    }
     public int somarMetragem() {
         return metragem * numeroBanheiros + numeroQuartos;
     }
@@ -44,6 +47,7 @@ public class DefinindoAtributosCasa {
 
         casa.construir();
         casa.pintar();
+        casa.mudarCorParede("Cinza");
 
         int resultado = casa.somarMetragem();
         System.out.println(resultado);
