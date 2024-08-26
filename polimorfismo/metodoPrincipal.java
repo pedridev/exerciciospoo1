@@ -14,5 +14,7 @@ public class metodoPrincipal {
         double totalDouble = calculadora.somar(sabonete, arroz);
         Integer TotalInteger = calculadora.somar(batata, cenoura, melancia);
 
+        carro polo = new carro();
+        polo.mover();
     }
 }
