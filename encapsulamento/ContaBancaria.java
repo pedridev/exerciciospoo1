@@ -1,4 +1,4 @@
-package contabancaria;
+package encapsulamento;
 
 public class ContaBancaria {
     // encapsulamento; atributos privados
