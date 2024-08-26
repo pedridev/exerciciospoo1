@@ -9,7 +9,7 @@ public class metodoPrincipal {
         Integer batata = 6;
         Integer cenoura = 7;
         Integer melancia = 5;
-
+        // click botao esquerdo do mouse + ctrl
         int total = calculadora.somar(sabaoPo, mamao);
         double totalDouble = calculadora.somar(sabonete, arroz);
         Integer TotalInteger = calculadora.somar(batata, cenoura, melancia);
