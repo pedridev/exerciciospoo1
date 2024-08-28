@@ -1,10 +1,10 @@
 package abstração;
 
-public class cliente extends endereco implements pessoa {
+public class Cliente extends Endereco implements Pessoa {
     private String nome;
     private String documento;
 
-    public cliente(String rua, String cidade, String estado, String cep, String nome, String documento) {
+    public Cliente(String rua, String cidade, String estado, String cep, String nome, String documento) {
         super(rua, cidade, estado, cep);
         this.nome = nome;
         this.documento = documento;

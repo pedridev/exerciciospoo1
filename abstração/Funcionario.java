@@ -1,11 +1,11 @@
 package abstração;
 
-public class funcionario extends endereco implements pessoa {
+public class Funcionario extends Endereco implements Pessoa {
     private String nome;
     private String documento;
     private String cargo;
 
-    public funcionario(String numero, String rua, String cidade, String estado, String cep, String nome, String documento, String cargo) {
+    public Funcionario(String numero, String rua, String cidade, String estado, String cep, String nome, String documento, String cargo) {
 
         // "super" reverencia o método pai (que no caso é a classe
         // abstrata "endereco"

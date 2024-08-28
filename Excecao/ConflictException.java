@@ -1,4 +1,4 @@
-package excecao;
+package Excecao;
 
 public class ConflictException extends RuntimeException {
     public ConflictException(String mensagem){

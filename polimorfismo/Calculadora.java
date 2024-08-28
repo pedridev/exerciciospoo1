@@ -1,6 +1,6 @@
 package polimorfismo;
 
-public class calculadora {
+public class Calculadora {
     public static int somar(int a, int b){
         return a + b;
     }

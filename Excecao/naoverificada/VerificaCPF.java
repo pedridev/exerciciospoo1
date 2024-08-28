@@ -1,6 +1,6 @@
-package excecao.naoverificada;
+package Excecao.naoverificada;
 
-import excecao.ConflictException;
+import Excecao.ConflictException;
 
 import java.util.Scanner;
 

@@ -1,9 +1,9 @@
 package associação;
 
-public class funcionarios {
+public class Funcionarios {
     private String nome;
 
-    public funcionarios(String nome) {
+    public Funcionarios(String nome) {
         this.nome = nome;
     }
 

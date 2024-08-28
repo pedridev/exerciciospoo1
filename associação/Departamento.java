@@ -2,11 +2,11 @@ package associação;
 
 import java.util.List;
 
-public class departamento {
+public class Departamento {
     private String nome;
-    private List<funcionarios> listaDeFuncionarios;
+    private List<Funcionarios> listaDeFuncionarios;
 
-    public departamento(String nome, List<funcionarios> listaDeFuncionarios) {
+    public Departamento(String nome, List<Funcionarios> listaDeFuncionarios) {
         this.nome = nome;
         this.listaDeFuncionarios = listaDeFuncionarios;
     }
@@ -19,15 +19,15 @@ public class departamento {
         this.nome = nome;
     }
 
-    public List<funcionarios> getListaDeFuncionarios() {
+    public List<Funcionarios> getListaDeFuncionarios() {
         return listaDeFuncionarios;
     }
 
-    public void setListaDeFuncionarios(List<funcionarios> listaDeFuncionarios) {
+    public void setListaDeFuncionarios(List<Funcionarios> listaDeFuncionarios) {
         this.listaDeFuncionarios = listaDeFuncionarios;
     }
     public void mostrarFuncionarios(){
         System.out.println("Departamento de " + nome);
-        listaDeFuncionarios.forEach(funcionarios -> System.out.println(funcionarios));
+        listaDeFuncionarios.forEach(Funcionarios -> System.out.println(Funcionarios));
     }
 }

@@ -1,6 +1,6 @@
 package polimorfismo;
 
-public class transporte {
+public class Transporte {
     public void mover(){
         System.out.println("Está se movendo");
     }

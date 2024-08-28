@@ -1,6 +1,6 @@
 package abstração;
 
-public abstract class endereco {
+public abstract class Endereco {
     private String rua;
     private String cidade;
     private String numero;
@@ -47,7 +47,7 @@ public abstract class endereco {
         this.cep = cep;
     }
 
-    public endereco(String numero, String rua, String cidade, String estado, String cep) {
+    public Endereco(String numero, String rua, String cidade, String estado, String cep) {
         this.numero = numero;
         this.rua = rua;
         this.cidade = cidade;
@@ -55,10 +55,10 @@ public abstract class endereco {
         this.cep = cep;
     }
 
-    public endereco() {
+    public Endereco() {
     }
 
-    public endereco(String rua, String cidade, String estado, String cep) {
+    public Endereco(String rua, String cidade, String estado, String cep) {
         this.rua = rua;
         this.cidade = cidade;
         this.estado = estado;

@@ -1,4 +1,4 @@
-package excecao.verificada;
+package Excecao.verificada;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

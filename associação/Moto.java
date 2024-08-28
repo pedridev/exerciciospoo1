@@ -1,4 +1,4 @@
 package associação;
 
-public class moto {
+public class Moto {
 }

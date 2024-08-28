@@ -1,6 +1,6 @@
 package abstração;
 
-public interface pessoa {
+public interface Pessoa {
     String getNome();
     void setNome(String nome);
     String getDocumento();

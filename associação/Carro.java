@@ -1,23 +1,23 @@
 package associação;
 
-public class carro {
+public class Carro {
     //atributo do tipo motor
-    private motor motor;
+    private Motor motor;
 
-    public carro(associação.motor motor) {
+    public Carro(Motor motor) {
         this.motor = motor;
     }
 
-    public associação.motor getMotor() {
+    public Motor getMotor() {
         return motor;
     }
 
-    public void setMotor(associação.motor motor) {
+    public void setMotor(Motor motor) {
         this.motor = motor;
     }
 
-    public carro(int cavalos) {
-        this.motor = new motor(cavalos);
+    public Carro(int cavalos) {
+        this.motor = new Motor(cavalos);
     }
 
     public void mostrarCavalos() {

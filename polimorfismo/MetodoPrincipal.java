@@ -1,6 +1,6 @@
 package polimorfismo;
 
-public class metodoPrincipal {
+public class MetodoPrincipal {
     public static void main(String[] args){
         int sabaoPo = 1;
         int mamao = 2;
@@ -10,11 +10,11 @@ public class metodoPrincipal {
         Integer cenoura = 7;
         Integer melancia = 5;
         // click botao esquerdo do mouse + ctrl
-        int total = calculadora.somar(sabaoPo, mamao);
-        double totalDouble = calculadora.somar(sabonete, arroz);
-        Integer TotalInteger = calculadora.somar(batata, cenoura, melancia);
+        int total = Calculadora.somar(sabaoPo, mamao);
+        double totalDouble = Calculadora.somar(sabonete, arroz);
+        Integer TotalInteger = Calculadora.somar(batata, cenoura, melancia);
 
-        carro polo = new carro();
+        Carro polo = new Carro();
         polo.mover();
     }
 }

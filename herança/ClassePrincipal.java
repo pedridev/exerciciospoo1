@@ -1,14 +1,14 @@
 package herança;
 
-public class classePrincipal {
+public class ClassePrincipal {
     public static void main (String [] args){
-        cachorro caramelo = new cachorro();
+        Cachorro caramelo = new Cachorro();
         caramelo.latir();
         caramelo.comer("Ração");
         caramelo.beberAgua();
         caramelo.dormir();
 
-        galinha gertrudes = new galinha();
+        Galinha gertrudes = new Galinha();
         gertrudes.ciscar();
         gertrudes.comer("Grão de milho");
         gertrudes.beberAgua();

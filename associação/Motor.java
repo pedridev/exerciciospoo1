@@ -1,9 +1,9 @@
 package associação;
 
-public class motor {
+public class Motor {
     private int cavalos;
 
-    public motor(int cavalos){
+    public Motor(int cavalos){
         this.cavalos = cavalos;
     }
 
